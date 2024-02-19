@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #265073;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #C63D2F;
+  font-size: medium;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #FFBB5C;
+}
+
+a:hover {
+  color: grey;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  line-height: normal;
+}
+
+.box {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 25px;
+}
+
+.container {
+  text-align: justify;
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+  display: block;
+  margin: auto;
+  padding: 25px;
+  background-color: #9BCF53;
+}
