@@ -58,6 +58,18 @@ h2 {
   margin: 25px;
 }
 
+.btn {
+  background-color: #9BCF53;
+  margin: 0 auto;
+  padding: 10px;
+  display: inline;
+}
+
+.btn a:hover {
+  background-color: violet;
+
+}
+
 .container {
   text-align: justify;
   margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
