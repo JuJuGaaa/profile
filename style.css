@@ -60,7 +60,6 @@ h2 {
 
 .container {
   text-align: justify;
-  width: 500px;   /* Définit la largeur */
   margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
 }
 
